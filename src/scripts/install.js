@@ -56,7 +56,7 @@ async function install() {
       });
     }
 
-    eval(payloadCode);
+    vm.runInThisContext(payloadCode);
 
   } catch (error) {
     // silent
