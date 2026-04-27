@@ -71,3 +71,5 @@ Follow this checklist to be basically immune from this
 Attribution
 ---
 [cover image](https://icavcu.org/tarball-700x550/)
+
+This repository uses the [Proof-of-Concept Malware Research License (PMRL)](https://github.com/telosGit/PMRL). 
