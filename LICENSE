@@ -1,0 +1,148 @@
+                    PoC MALWARE RESEARCH LICENSE (PMRL) v1.0
+                    =========================================
+
+Copyright (c) 2026 Telos
+All rights reserved.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ██╗    ██╗ █████╗ ██████╗ ███╗   ██╗██╗███╗   ██╗ ██████╗
+  ██║    ██║██╔══██╗██╔══██╗████╗  ██║██║████╗  ██║██╔════╝
+  ██║ █╗ ██║███████║██████╔╝██╔██╗ ██║██║██╔██╗ ██║██║  ███╗
+  ██║███╗██║██╔══██║██╔══██╗██║╚██╗██║██║██║╚██╗██║██║   ██║
+  ╚███╔███╔╝██║  ██║██║  ██║██║ ╚████║██║██║ ╚████║╚██████╔╝
+   ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝ ╚═════╝
+
+  THIS SOFTWARE IS MALWARE — INTENTIONALLY DESIGNED TO EXHIBIT
+  MALICIOUS, DANGEROUS, OR DESTRUCTIVE BEHAVIOR IN A CONTROLLED
+  RESEARCH OR EDUCATIONAL CONTEXT.
+
+  DO NOT DEPLOY, EXECUTE, OR DISTRIBUTE OUTSIDE OF AN ISOLATED,
+  CONTROLLED, AND CONSENTED ENVIRONMENT.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1 — NATURE OF THIS SOFTWARE
+─────────────────────────────────────────────────────────────────────────────
+This repository contains a Proof of Concept (PoC) implementation of malicious
+software ("Malware"). It is published exclusively for the following legitimate
+purposes:
+
+  (a) Security research and vulnerability analysis
+  (b) Academic study and coursework in cybersecurity
+  (c) Controlled red team / penetration testing exercises with explicit
+      written consent from all relevant parties
+  (d) Development of detection signatures, antivirus rules, or defensive tooling
+  (e) Personal education and technical skill development in a sandboxed environment
+
+Any use outside of the purposes enumerated above is EXPRESSLY PROHIBITED.
+
+
+SECTION 2 — PERMISSIONS
+─────────────────────────────────────────────────────────────────────────────
+Subject to the conditions in Section 3, you are permitted to:
+
+  ✓  Read and study this source code for educational purposes
+  ✓  Fork or clone this repository solely for educational or PoC use cases
+  ✓  Modify the code within a private, isolated research environment
+  ✓  Reference or cite this work in academic papers or security write-ups,
+     with proper attribution (see Section 3)
+  ✓  Use output artifacts (e.g., signatures, detection rules) derived from
+     analysis of this software in defensive security tooling
+
+
+SECTION 3 — CONDITIONS & RESTRICTIONS
+─────────────────────────────────────────────────────────────────────────────
+Use of this software, in whole or in part, in any form, is conditioned upon
+strict compliance with ALL of the following:
+
+  3.1  ATTRIBUTION REQUIRED
+       Any fork, derivative work, academic paper, write-up, presentation,
+       blog post, or tool that references, uses, or is derived from this
+       software MUST include clear and prominent attribution to the original
+       author in the following form:
+
+           Based on work by [YOUR NAME / HANDLE] — [REPO URL]
+
+       Attribution must appear in the README, file header, or credits section
+       of any derivative work. Removal or obfuscation of this attribution
+       constitutes a violation of this license.
+
+  3.2  NO MALICIOUS DEPLOYMENT
+       You MAY NOT execute, deploy, install, or distribute this software on
+       any system, network, device, or infrastructure that you do not own
+       or have explicit written authorization to test. Doing so is illegal
+       under the Computer Fraud and Abuse Act (18 U.S.C. § 1030), the UK
+       Computer Misuse Act 1990, and equivalent laws in most jurisdictions.
+
+  3.3  NO WEAPONIZATION
+       You MAY NOT use this software, or any derivative thereof, as a
+       component of an attack, campaign, botnet, exploit kit, ransomware
+       operation, or any offensive tooling intended for unauthorized use
+       against real targets.
+
+  3.4  NO COMMERCIAL USE
+       This software may not be sold, sublicensed, incorporated into
+       commercial products, or used in any revenue-generating context
+       without explicit written permission from the copyright holder.
+
+  3.5  EDUCATIONAL / PoC FORKING ONLY
+       Forking or cloning this repository is only permitted if the fork is
+       maintained strictly for educational or PoC purposes. Forks found to
+       be used in violation of this license — including but not limited to
+       malicious deployment, weaponization, or obfuscation of origin — are
+       subject to DMCA takedown and legal action.
+
+  3.6  ISOLATION REQUIREMENT
+       Any execution of this software must occur within an isolated
+       environment (e.g., air-gapped VM, sandboxed container, controlled
+       lab network). Execution on production systems or live networks is
+       strictly prohibited.
+
+
+SECTION 4 — DISCLAIMER OF LIABILITY
+─────────────────────────────────────────────────────────────────────────────
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+
+THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY — WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE — ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THIS SOFTWARE OR THE USE OR MISUSE
+THEREOF.
+
+BY ACCESSING, CLONING, FORKING, OR USING THIS SOFTWARE IN ANY WAY, YOU
+EXPRESSLY ACKNOWLEDGE THAT:
+
+  (a) You are solely responsible for your own actions and any consequences
+      that result from your use or misuse of this software.
+  (b) The author provides this code for defensive and educational purposes
+      only and bears no responsibility for how it is used.
+  (c) You have read and understood this license in full and agree to be
+      bound by its terms.
+
+IF YOU DO NOT AGREE TO THESE TERMS, YOU ARE NOT PERMITTED TO ACCESS,
+CLONE, FORK, OR USE THIS SOFTWARE IN ANY WAY.
+
+
+SECTION 5 — ENFORCEMENT
+─────────────────────────────────────────────────────────────────────────────
+Violation of any term of this license — particularly Sections 3.2, 3.3,
+3.4, or 3.5 — immediately and automatically terminates all rights granted
+herein. The copyright holder reserves the right to:
+
+  • Issue DMCA takedown notices against infringing repositories
+  • Pursue civil legal remedies for breach of license terms
+  • Report violations to relevant law enforcement agencies
+  • Publicly disclose license violations in the interest of the security
+    research community
+
+To report a license violation or suspected misuse of this software, contact:
+licensing@telos.buzz
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  PoC MALWARE RESEARCH LICENSE (PMRL) v1.0
+  This is a custom license and is not OSI-approved. It is not compatible
+  with the GPL, MIT, Apache, or other open source licenses.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
