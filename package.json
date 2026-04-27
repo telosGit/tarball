@@ -1,0 +1,9 @@
+{
+  "name": "lodash",
+  "version": "4.17.21",
+  "description": "Lodash modular utilities.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  }
+}
