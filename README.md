@@ -20,7 +20,7 @@ You don't, but at least this raises awareness on how these attacks work.
 How does it work?
 ---
 
-`src/` is turned into a `.tgz` that is put into a `package-lock.json`, upon `npm i/ci` it will install and run `src/install/index.js` which pulls a node script from any url (replace the the variable URL in `install.js`), installs deps, then runs the the script. This allows remote execution on any device.
+`src/` is turned into a `.tgz` that is put into a `package-lock.json`, upon `npm i/ci` it will install and run `src/install/install.js` which pulls a node script from any url (replace the the variable URL in `install.js`), installs deps, then runs the the script. This allows remote execution on any device.
 
 
 Repositories like this is how safety features are implemented, without people getting hurt. That is the goal.
