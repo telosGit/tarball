@@ -39,7 +39,7 @@ The actual code *is* ready to pull a payload, but if you're smart enough to be a
 
 The other thing is there *is* no payload, you'd have to write all malicious code yourself, which again is much harder than making the install script.
 
-The last thing is you'd have to modify `src/package.json` and `src/package-lock.json` enough to match integrty hashes which is again, a hurdle that if you can pass this code would provide basically no jump-start.
+The last thing is you'd have to modify `src/package.json` and `src/package-lock.json` enough to be somewhat legit and match integrty hashes which is again, a hurdle that if you can pass this code would provide basically no jump-start.
 
 Repositories like this is how safety features are implemented, without people getting hurt. That is the goal.
 
