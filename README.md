@@ -15,8 +15,7 @@ To get these companies to fix these vulns
 How do I know some attacker isn't going to hack me with this?
 ---
 
-Well, only like three people have access to this for one, and secondly we'll prosecute to the fullest extent of the law if they do :)
-
+You don't, but at least this raises awareness on how these attacks work.
 
 How does it work?
 ---
