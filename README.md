@@ -11,7 +11,7 @@
 What is tarball?
 ---
 
-Tarball is a proof-of-concept and educational use only malware. It is meant to demonstrate the fullest capabilities of package-lock infection and infostealers, specifically targeting discord, browser cookies/auth sessions/history, and local .env dev API keys.
+Tarball is a proof-of-concept and educational use only malware. It is meant to demonstrate the fullest capabilities of package-lock infection, and how through further payload development just running `npm i` could completely comprimise a machine.
 
 
 Why?
