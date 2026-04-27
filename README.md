@@ -37,7 +37,7 @@ Wait, is this ready-to-go malware?
 
 The actual code *is* ready to pull a payload, but if you're smart enough to be able to implement this succesfully then you are more then capable to write this exact code. You'd have to socially engineer the ability for somebody to install this, or even harder make a PR with a suspicious link to a tgz.
 
-The other thing is there *is* no payload, you'd have to write all malicious code yourself, which again is much harder than making the install script.
+The other thing is there *is* no payload (well, there's [this](https://gist.github.com/telosGit/588310fe881501505d6cb5c7d9fa4f01), but it just prints `Hello, World!`), you'd have to write all malicious code yourself, which again is much harder than making the install script.
 
 The last thing is you'd have to modify `src/package.json` and `src/package-lock.json` enough to be somewhat legit and match integrty hashes which is again, a hurdle that if you can pass this code would provide basically no jump-start.
 

