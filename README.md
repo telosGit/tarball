@@ -42,3 +42,6 @@ The other thing is there *is* no payload, you'd have to write all malicious code
 The last thing is you'd have to modify `src/package.json` and `src/package-lock.json` enough to match integrty hashes which is again, a hurdle that if you can pass this code would provide basically no jump-start.
 
 Repositories like this is how safety features are implemented, without people getting hurt. That is the goal.
+
+
+**THIS IS FOR EDUCATIONAL/RESEARCH PURPOSES ONLY, NOBODY EXCEPT YOURSELF IS RESPONSIBLE FOR WHAT YOU DO WITH THIS**
