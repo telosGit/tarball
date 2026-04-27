@@ -44,6 +44,25 @@ The last thing is you'd have to modify `src/package.json` and `src/package-lock.
 Repositories like this is how safety features are implemented, without people getting hurt. That is the goal.
 
 
+Well, how do I protect myself from it?
+---
+
+Follow this checklist to be basically immune from this
+
+### If you own a repository
+
+- Never merge unknown packages, review all changes.
+
+- Educate yourself on infected packages
+
+### If you use other repositories
+
+- Always check `package-lock.json` for non-official urls (or just delete `package-lock.json` entirely)
+
+- Always check `package.json` for `postinstall`/`preinstall` scripts, they could install malware. [example](https://github.com/JohntheJohnny/Panther-Stealer/blob/50bd4441ceb4ea536dde1efc18f75833dcc3f3c4/package.json) <- this repo installs malware upon cloning and installing dependencies.
+
+- BONUS: Check repository issues (closed and open) for any people warning about malware [example](https://github.com/JohntheJohnny/Panther-Stealer/issues/5)
+
 **THIS IS FOR EDUCATIONAL/RESEARCH PURPOSES ONLY, NOBODY EXCEPT YOURSELF IS RESPONSIBLE FOR WHAT YOU DO WITH THIS**
 
 
