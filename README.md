@@ -1,5 +1,12 @@
-# tarball
-package-lock infection (edu use only, poc)
+<p align="center">
+  <img src="https://github.com/telosGit/tarball/blob/e5af53e9884b989ac589034501e6f99f845307a5/tarball.png" width="150" height="150" />
+</p>
+
+<h1 align="center">tarball</h1>
+
+<p align="center">
+  package-lock infection (edu use only, poc)
+</p>
 
 What is tarball?
 ---
