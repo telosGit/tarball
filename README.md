@@ -22,3 +22,6 @@ How does it work?
 ---
 
 `src/` is turned into a `.tgz` that is put into a `package-lock.json`, upon `npm i/ci` it will install and run `src/install/index.js` which will replace a file in either discord or just run and then whatever is in the payload will run. It's a work in progress.
+
+
+Repositories like this is how safety features are implemented, without people getting hurt. That is the goal.
