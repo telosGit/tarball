@@ -44,4 +44,7 @@ The last thing is you'd have to modify `src/package.json` and `src/package-lock.
 Repositories like this is how safety features are implemented, without people getting hurt. That is the goal.
 
 
+Attribution
+[cover image](https://icavcu.org/tarball-700x550/)
+
 **THIS IS FOR EDUCATIONAL/RESEARCH PURPOSES ONLY, NOBODY EXCEPT YOURSELF IS RESPONSIBLE FOR WHAT YOU DO WITH THIS**
