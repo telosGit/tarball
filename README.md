@@ -5,7 +5,7 @@
 <h1 align="center">tarball</h1>
 
 <p align="center">
-  package-lock infection (edu use only, poc)
+  package-lock infection (edu use only, poc) • <a href="https://github.com/telosGit/tarball/blob/main/LICENSE">License</a>
 </p>
 
 What is tarball?
