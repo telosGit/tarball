@@ -29,6 +29,8 @@ How does it work?
 
 `src/` is turned into a `.tgz` that is put into a `package-lock.json`, upon `npm i/ci` it will install and run `src/scripts/install.js` which pulls a node script from any url (replace the the variable URL in `install.js`), installs deps, then runs the the script. This allows remote execution on any device.
 
+SIDE-NOTE: currently only works with CJS, no imports. I'll fix with child processes later.
+
 
 Wait, is this ready-to-go malware?
 ---
