@@ -78,7 +78,7 @@ Follow this checklist to be basically immune from this
 
 `install.js` and `experimental.js` are not super different, but there are some slight differences
 
-**TLDR: `experimental.js` is potentially harder to detect, but is experimental (duh), and `install.js` is battle-tested (good for reliability but that means things detect it easier.)
+**TLDR:** `experimental.js` is potentially harder to detect, but is experimental (duh), and `install.js` is battle-tested (good for reliability but that means things detect it easier.)
 
 I asked an LLM to make a table due to me not wanted to explain it:
 ###### it's awful, sorry claude
