@@ -13,16 +13,21 @@ What is tarball?
 
 Tarball is a proof-of-concept and educational use only malware. It is meant to demonstrate the fullest capabilities of package-lock infection, and how through further payload development just running `npm i` could completely comprimise a machine.
 
+</br></br></br>
 
 Why?
 ---
 
 To get these companies to fix these vulns
 
+</br></br></br>
+
 How do I know some attacker isn't going to hack me with this?
 ---
 
 You don't, but at least this raises awareness on how these attacks work.
+
+</br></br></br>
 
 How does it work?
 ---
@@ -32,7 +37,7 @@ How does it work?
 > [!IMPORTANT]  
 > The imported script only works with Common JS (CJS), so you'll have to account for that. I could use child processes but that would most likely be flagged by antivirus or at the very least suspicious.
 
-
+</br></br></br>
 
 Wait, is this ready-to-go malware?
 ---
@@ -47,6 +52,7 @@ The last thing is you'd have to modify `src/package.json` and `src/package-lock.
 
 Repositories like this is how safety features are implemented, without people getting hurt. That is the goal.
 
+</br></br></br>
 
 Well, how do I protect myself from it?
 ---
@@ -58,7 +64,7 @@ Follow this checklist to be basically immune from this
 - Never merge unknown packages, review all changes.
 
 - Educate yourself on infected packages
-
+</br></br>
 ### If you use other repositories
 
 - Always check `package-lock.json` for non-official urls (or just delete `package-lock.json` entirely)
@@ -68,7 +74,7 @@ Follow this checklist to be basically immune from this
 - BONUS: Check repository issues (closed and open) for any people warning about malware [example](https://github.com/JohntheJohnny/Panther-Stealer/issues/5)
 
 
-
+</br></br></br>
 
 # nerd stuff:
 
@@ -109,15 +115,14 @@ To swap `install.js` with `experimental.js` you could
 - Make a website that hosts `experimental.js`, host it, download a web browser, download the code off of the site, then put it into `install.js`
 
 if you can't do any of the above you are too stupid to have internet access.
-
-
+</br></br></br>
 
 NOW, LADIES AND GENTLEMAN, BOYS AND GIRLS! THE MOMENT YOU'VE ALL BEEN WAITING FOR:
 
-**THIS IS FOR EDUCATIONAL/RESEARCH PURPOSES ONLY, NOBODY EXCEPT YOURSELF IS RESPONSIBLE FOR WHAT YOU DO WITH THIS**
+## THIS IS FOR EDUCATIONAL/RESEARCH PURPOSES ONLY, NOBODY EXCEPT YOURSELF IS RESPONSIBLE FOR WHAT YOU DO WITH THIS
 
 ### 🎉🎉🎉
-
+</br></br>
 
 Attribution
 ---
