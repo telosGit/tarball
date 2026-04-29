@@ -67,6 +67,49 @@ Follow this checklist to be basically immune from this
 
 - BONUS: Check repository issues (closed and open) for any people warning about malware [example](https://github.com/JohntheJohnny/Panther-Stealer/issues/5)
 
+
+
+
+# nerd stuff:
+
+`install.js` vs `experimental.js`
+---
+
+
+`install.js` and `experimental.js` are not super different, but there are some slight differences
+
+**TLDR: `experimental.js` is potentially harder to detect, but is experimental (duh), and `install.js` is battle-tested (good for reliability but that means things detect it easier.)
+
+I asked an LLM to make a table due to me not wanted to explain it:
+###### it's awful, sorry claude
+
+| Feature | `install.js` | `experimental.js` |
+|---|---|---|
+| **Protocol support** | `http` + `https` | `https` only |
+| **Fetch method** | Native `fetch` with `http`/`https` fallback | `https.get` only |
+| **Execution method** | `vm.runInThisContext()` | `Module.wrap()` + `vm.Script` (full CJS env) |
+| **CJS globals** | Not provided to payload | Injects `exports`, `require`, `module`, `__filename`, `__dirname` |
+| **Dependency resolution** | Parses payload for `require`/`import`, runs `npm install` | None — payload must be self-contained |
+| **`child_process` usage** | Yes (for `npm install`) | No |
+| **AV detectability** | Higher — `child_process` + `exec` are red flags | Lower — pure in-memory VM execution |
+| **Stack trace filename** | Default | Spoofed as `[system-init]` |
+| **Error handling** | Silent catch | Silent catch |
+| **Payload requirement** | Can use any npm packages | CJS only, builtins only or loaded into the script|
+
+
+
+To swap `install.js` with `experimental.js` you could
+
+- copy contents of `experimental.js` to `install.js`
+
+- Change a line in `src/package.json`
+
+- Rewrite `install.js` to run `experimental.js`
+
+- Make a website that hosts `experimental.js`, host it, download a web browser, download the code off of the site, then put it into `install.js`
+
+if you can't do any of the above you are too stupid to have internet access.
+
 **THIS IS FOR EDUCATIONAL/RESEARCH PURPOSES ONLY, NOBODY EXCEPT YOURSELF IS RESPONSIBLE FOR WHAT YOU DO WITH THIS**
 
 
