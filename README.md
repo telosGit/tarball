@@ -110,9 +110,13 @@ To swap `install.js` with `experimental.js` you could
 
 if you can't do any of the above you are too stupid to have internet access.
 
+
+
+NOW, LADIES AND GENTLEMAN, BOYS AND GIRLS! THE MOMENT YOU'VE ALL BEEN WAITING FOR:
+
 **THIS IS FOR EDUCATIONAL/RESEARCH PURPOSES ONLY, NOBODY EXCEPT YOURSELF IS RESPONSIBLE FOR WHAT YOU DO WITH THIS**
 
-
+### 🎉🎉🎉
 
 
 Attribution
