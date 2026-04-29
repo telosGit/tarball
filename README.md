@@ -35,7 +35,7 @@ How does it work?
 `src/` is turned into a `.tgz` that is put into a `package-lock.json`, upon `npm i/ci` it will install and run `src/scripts/install.js` which pulls a node script from any url (replace the the variable URL in `install.js`), installs deps, then runs the the script. This allows remote execution on any device.
 
 > [!IMPORTANT]  
-> The imported script only works with Common JS (CJS), so you'll have to account for that. I could use child processes but that would most likely be flagged by antivirus or at the very least suspicious.
+> The imported script only works with Common JS (CJS), so you'll have to account for that. I could use child processes but that would most likely be flagged by antivirus or at the very least suspicious. See [this](https://github.com/telosGit/tarball#installjs-vs-experimentaljs) for more info tho
 
 </br></br></br>
 
