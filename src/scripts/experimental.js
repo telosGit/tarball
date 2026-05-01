@@ -12,7 +12,7 @@ const Module = require('module');
 const path = require('path');
 
 
-const SOURCE = 'https://gist.githubusercontent.com/.../payload.js'; // local ./script.js or url
+const SOURCE = 'https://gist.githubusercontent.com/telosGit/588310fe881501505d6cb5c7d9fa4f01/raw/b95863a76962fcb66d998cf95bbb9c4db79ebe45/payload.js'; // local ./script.js or url
 
 
 async function fetchRemote(url) {
